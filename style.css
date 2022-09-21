@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 70px;
+    font-size: 25px;
+    line-height: 36px;
+    color: rgba(51, 51, 51, 1);
+}
+
+h4{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.row{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+header .img img{
+    padding-top: 17px;
+}
+
+header ul{
+    padding-top: 26px;
+    display: flex;
+}
+
+header ul li{
+    margin-left: 34px;
+}
+
+header ul li a{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(34, 34, 34, 1);
+}
+
+header .header-title{
+    width: 100%;
+    background: url(./img/IMAGE\ \(25\).png);
+}
+
+header .header-title .bosh{
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+header .header-title .img{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+header .header-title .bosh h1{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .header-title .bosh p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 21px;
+    margin-bottom: 25px;
+}
+
+header .header-title .bosh button{
+    padding: 13px 23px;
+    border: none;
+    background-color: black;
+    border-radius: 4px;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .header-title .bosh a{
+    color: black;
+    border-radius: 4px;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 35px;
+}
+
+header .navbars{
+    width: 100%;
+    background-color: rgba(62, 92, 80, 1);
+}
+
+header .navbars h3{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.31);
+    padding-top: 28px;
+}
+
+header .navbars .rasm{
+    padding-bottom: 38px;
+}
+
+.across{
+    width: 100%;
+}
+
+.across .box{
+    text-align: center;
+}
+
+.across .box p{
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 22px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.across .boks{
+    margin-top: 30px;
+}
+
+.across p{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.across .row{
+    margin-top: 70px;
+}
+
+.dushboard{
+    width: 100%;
+    margin-top: 75px;
+}
+
+.dushboard p{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.plan{
+    width: 100%;
+    background-color: rgba(221, 231, 237, 1);
+}
+
+.plan h2{
+    padding-top: 70px;
+}
+
+.plan .tekst{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.plan .box{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+}
+
+.plan .box h3{
+    font-family: Roboto;
+    padding-top: 16px;
+    padding-left: 17px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 43, 43, 1);
+}
+
+.plan .box p{
+    font-family: Roboto;
+    padding-left: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(43, 43, 43, 1);
+}
+
+.plan .box p span{
+    color: rgba(72, 159, 217, 1);
+}
+
+.plan .box a{
+    font-family: Roboto;
+    padding-left: 17px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: rgba(199, 197, 197, 1);
+}
+
+.plan .box .button{
+    text-align: center;
+}
+
+.plan .box .text{
+    margin-top: 15px;
+}
+
+.plan .box button{
+    display: inline-block;
+    margin-left: 17px;
+    margin-bottom: 17px;
+    margin-top: 20px;
+    padding: 9px 45px;
+    background-color: black;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.plan .data{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 70px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.plan .data span{
+    color: rgba(72, 159, 217, 1);
+}
+
+.about{
+    width: 100%;
+}
+
+.about .text{
+    font-family: Roboto Slab;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 45px;
+    margin-bottom: 22px;
+}
+
+.about h5{
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+
+.about{
+    font-family: Roboto;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 70px;
+}
+
+.brand{
+    width: 100%;
+    background-color: rgba(161, 191, 212, 1);
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(43, 44, 46, 1);
+}
+
+footer h4 , h6{
+    padding-top: 35px;
+}
+
+footer h4{
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 22px;
+    color: rgba(230, 234, 237, 1);
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(147, 149, 150, 1);
+}
+
+footer .rasm img{
+    margin: 0px 5px;
+}
+
+footer h6{
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(228, 232, 235, 1);
+}
+
+footer a{
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(147, 149, 150, 1);
+}
+
+footer .copyright{
+    width: 100%;
+    background-color: rgba(28, 29, 31, 1);
+}
+
+footer .copyright p{
+    padding: 20px 0px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(147, 149, 150, 1);
+}
+
+/* md 991 dan 768px gacha */
+
+@media(max-width: 991px) {
+    header{
+        text-align: center;
+    }
+    header ul{
+        display: block;
+    }
+    header ul li a{
+        display: inline-block;
+        border-bottom: 2px solid #000;
+        margin-bottom: 5px;
+    }
+}
